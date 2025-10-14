@@ -1,0 +1,9 @@
+.device-box::after {
+  content: "Default";
+  display: block;
+  font-size: 2em;
+  text-align: center;
+  padding: 60px;
+  background-color: lightgray;
+  border: 3px solid black;
+}
