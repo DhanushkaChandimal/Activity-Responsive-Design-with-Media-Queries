@@ -4,3 +4,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container::after {
+    content: "Default view";
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    padding: 50px 0;
+    color: black;
+}
