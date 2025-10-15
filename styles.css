@@ -14,7 +14,7 @@
     }
 
     .device-box::after {
-        content: "Mobile View";
+        content: "Mobile Device";
         font-size: 1.5em;
     }
 }
@@ -25,7 +25,22 @@
     }
 
     .device-box::after {
-        content: "Tablet View";
+        content: "Tablet Device";
         border: 3px dotted black;
+    }
+}
+
+@media only screen and (min-width:900px){
+    body {
+        background-color: lightcoral;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .device-box::after {
+        content: "Desktop  Device";
+        padding: 100px;
     }
 }
