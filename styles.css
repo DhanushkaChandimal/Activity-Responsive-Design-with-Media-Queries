@@ -18,3 +18,14 @@
         font-size: 1.5em;
     }
 }
+
+@media only screen and (min-width:600px) and (max-width:899px){
+    body {
+        background-color: lightgreen;
+    }
+
+    .device-box::after {
+        content: "Tablet View";
+        border: 3px dotted black;
+    }
+}
