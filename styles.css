@@ -7,3 +7,14 @@
   background-color: lightgray;
   border: 3px solid black;
 }
+
+@media only screen and (max-width:599px){
+    body {
+        background-color: lightblue;
+    }
+
+    .device-box::after {
+        content: "Mobile View";
+        font-size: 1.5em;
+    }
+}
