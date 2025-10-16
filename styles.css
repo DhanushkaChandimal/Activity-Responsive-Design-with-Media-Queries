@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .device-box::after {
@@ -13,6 +14,7 @@ body {
   padding: 60px;
   background-color: lightgray;
   border: 3px solid black;
+  transition: all 0.5s ease-in-out;
 }
 
 @media only screen and (max-width:599px){
